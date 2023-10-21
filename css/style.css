@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+a{text-decoration: none;}
+.blue_block{
+    background-color: rgb(53, 53, 255);
+}
+
+.home{
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    padding: 0;
+}
+.home_left{
+    max-width: 293px;
+    width: 100%;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.class{
+    margin: -5px 0 0 -5px;
+    width: 100%;
+    display: flex;
+    height: 72px;
+}
+.class a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.logo_icon{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(60, 60, 255, 0.7);
+}
+.home_cards{
+    overflow-y: scroll;
+    height: calc(99vh - 72px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 287px;
+    padding-top: 10px;
+}
+.home_cards::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+.home_cards::-webkit-scrollbar-thumb{
+    background-color: rgb(196, 206, 237);
+    border-radius: 5px;
+}
+.home_cards::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+}
+.home_card{
+    width: 130px;
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #F9FBFD;
+    transition: .2s;
+    cursor: pointer;
+}
+.home_card ion-icon{
+    font-size: 24px;
+    color: #869AC8;
+}
+.home_card span{
+    color: #869AC8;
+    font-size: 15px;
+    font-weight: 600;
+}
+.home_card:hover{
+    background-color: #F1F4F8;
+}
+.home_card:hover > *{
+    color: #3171ED;
+}
+
+header{
+    overflow-y: scroll;
+    width: 100%;
+    height: calc(99vh - 72px);
+}
+
+.header_grid{
+    padding: 20px;
+}
+
+.header_row .div_one{
+    height: 244px;
+}
+/* .header_row {
+} */
+
+.home_right{
+    width: calc(99vw - 290px);
+}
+.div_one{
+    padding: 10px;
+}
+.col_cars{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+.bg_img{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    transition: .7s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.bg_img:hover{
+    background-size: 110%;
+}
+.bg_img1{
+    background-image: url(../images/pic-1.png);
+}
+.bg_img2{
+    background-image: url(../images/pic-2.png);
+}
+.bg_img3{
+    background-image: url(../images/pic-3.png);
+}
+.bg_img4{
+    background-image: url(../images/pic-4.png);
+}
+.bg_img42{
+    background-size: 200%;
+}
+.bg_img42:hover{
+    background-size: 220%;
+}
+.bg_img5{
+    background-image: url(../images/pic-6.png);
+}
+.bg_img6{
+    background-image: url(../images/pic-7.png);
+}
+.bg_img7{
+    background-image: url(../images/pic-8.png);
+}
+.bg_img8{
+    background-image: url(../images/pic-13.png);
+}
+.bg_img9{
+    background-image: url(../images/pic-14.png);
+}
+.bg_img10{
+    background-image: url(../images/pic-15.jpg);
+}
+.bg_img11{
+    background-image: url(../images/pic-16.jpg);
+}
+.bg_img12{
+    background-image: url(../images/pic-17.jpg);
+}
+.bg_img13{
+    background-image: url(../images/pic-18.jpg);
+}
+.bg_img14{
+    background-image: url(../images/pic-19.png);
+}
+.bg_img15{
+    background-image: url(../images/pic-20.png);
+}
+.card_linerg{
+    background: linear-gradient(30deg, rgba(8, 32, 70, 0.9) 30%, rgba(255,255,255,0) 100%);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card_linerg:hover{
+    background: linear-gradient(30deg, rgba(0, 20, 53, 0.9) 30%, rgba(255,255,255,0) 100%);
+}
+.card_linerg h4{
+    font-size: 20px;
+    color: #fff;
+}
+.linerg_bottom{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    justify-content: space-between;
+}
+.linerg_bottom h5{
+    font-size: 16px;
+    color: #fff;
+}
+.border_radius{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.bg_color{
+    background-color: #8448ec;
+}
